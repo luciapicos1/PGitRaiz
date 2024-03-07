@@ -1,0 +1,17 @@
+COMANDOS USADOS
+
+- git init : Dentro de la carpeta que hemos creado para inicialiar el repositorio local en ese directorio.
+- git add . : Agrega todos los archivos modificados y nuevos al area de preparacion para que se incluyan en el proximo commit.
+- git commit -m "" : Crea un nuevo commit con los cambios en el area de preparacion. La opcion -m se añade para añadir un comentario describiendo los cambios.
+- git tag -a R1 -m "Version 1" : Crea una etiqueta R1 en el commit actual y añadimos el mensaje con -m para asociarlo a la etiqueta.
+- git log: Muestra el historial de commits del repositorio
+- git tag: Muestra una lista de las etiquetas en el repositorio
+- git checkout -b Mejoras : Crea la rama Mejoras y cambia a ella (tambien se puede crear con git branch y luego cambiar con git checkout)
+- git checkout master: Cambiamos la rama principal
+- git merge Mejoras: Fusiona la rama Mejoras con la actual, incorporando los cambios de Mejoras
+- git branch: Muestra una lista de todas las ramas y resalta en la que te encuentras
+- git branch -d Mejoras: Borra la rama Mejoras
+- git reset --hard HEAD~1: Retrocede un commit en la rama actual y descarta los cambios anteriores. El numero 1 indica cuantos commits retroceder.
+- git remote add origin URL: Añade un repositorio remoto en la URL indicada
+- git push origin master --tags : Envia los commits y las etiquetas al repositorio remoto que esta en origin(donde añadimos antes la URL)
+- history: Muestra los comandos ejecutados en la terminal.
