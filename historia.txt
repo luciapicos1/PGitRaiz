@@ -15,3 +15,5 @@ COMANDOS USADOS
 - git remote add origin URL: Añade un repositorio remoto en la URL indicada
 - git push origin master --tags : Envia los commits y las etiquetas al repositorio remoto que esta en origin(donde añadimos antes la URL)
 - history: Muestra los comandos ejecutados en la terminal.
+
+-git pull origin master: Actualiza el repositorio local con el remoto trayendo los posibles cambios que se han hecho.
