@@ -1,3 +1,5 @@
+URL del repositorio de github: https://github.com/luciapicos1/PGitRaiz.git
+
 COMANDOS USADOS
 
 - git init : Dentro de la carpeta que hemos creado para inicialiar el repositorio local en ese directorio.
